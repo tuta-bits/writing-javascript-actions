@@ -11,13 +11,13 @@ inputs:
   second-greeting:
     description: "another person to greet"
     required: true
-    default: "Mona the Octocat"
+    default: "Amarachi Jasmine"
 
   third-greeting:
     description: "a third greeting"
-    required: false
+    required: true
+    default: "Kenechi Arthur-Oliver"
 
 runs:
   using: "node12"
   main: "main.js"
-  
