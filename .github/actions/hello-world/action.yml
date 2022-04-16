@@ -18,6 +18,11 @@ inputs:
     required: true
     default: "Kenechi Arthur-Oliver"
 
+  fourth-greeting:
+    description: "a fourth greeting"
+    required: true
+    default: "!👏👏 Massive Welcome to the UBES 👏👏!"
+
 runs:
   using: "node12"
   main: "main.js"
