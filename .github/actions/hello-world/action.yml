@@ -1,0 +1,28 @@
+name: "my hello action"
+
+description: "say hello with actions"
+
+inputs:
+  first-greeting:
+    description: "who would you like to greet in the console"
+    required: true
+    default: "Hubot"
+
+  second-greeting:
+    description: "another person to greet"
+    required: true
+    default: "Amarachi Jasmine"
+
+  third-greeting:
+    description: "a third greeting"
+    required: true
+    default: "Kenechi Arthur-Oliver"
+
+  fourth-greeting:
+    description: "a fourth greeting"
+    required: true
+    default: "!👏👏 Massive Welcome to the UBES 👏👏!"
+
+runs:
+  using: "node12"
+  main: "main.js"
