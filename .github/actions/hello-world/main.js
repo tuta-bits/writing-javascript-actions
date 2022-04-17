@@ -10,4 +10,4 @@ console.log(`Hello ${secondGreeting}`);
 if (thirdGreeting) {
   console.log(`Hello ${thirdGreeting}`);
 }
-console.log(`Hello ${fourthGreeting}`);
+console.log(`Hello and a ${fourthGreeting}`);
